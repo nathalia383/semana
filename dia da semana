@@ -1,0 +1,54 @@
+
+namespace semana
+{
+    programa de aula
+    {
+        static void Main (string [] args)
+        {
+            para (int i = 0; i <7; i ++)
+            {
+
+            int Ds = 0;
+            Console.WriteLine ("Informe um número correspondente aos dias da semana:");
+            Ds = int.Parse (Console.ReadLine ());
+
+
+
+                interruptor (Ds)
+                {
+                    caso 1:
+                        Console.WriteLine ("Hoje é Domingo:");
+                        
+
+                    dia 2:
+                        Console.WriteLine ("Hoje é Segunda-Feira:");
+                    
+
+                    dia 3:
+                        Console.WriteLine ("Hoje é Terça-Feira:");
+                        
+
+                    dia 4:
+                        Console.WriteLine ("Hoje é Quarta-Feira:")
+
+                    dia 5:
+                        Console.WriteLine ("Hoje é Quinta-Feira:");
+
+                    dia 6:
+                        Console.WriteLine ("Hoje é Sexta-Feira:");
+
+
+                    dia 7:
+                        Console.WriteLine ("Hoje é sabado:");
+
+                    padrão:
+                        Console.WriteLine ("Número não definido:");
+                        quebrar;
+                }
+}
+            Console.ReadLine ();
+
+        }
+
+    }
+
